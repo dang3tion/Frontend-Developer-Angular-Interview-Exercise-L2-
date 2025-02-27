@@ -1,0 +1,37 @@
+<div class="container mt-4">
+    <h2>Contact Detail</h2>
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>ID</th>
+                <td>{{ contact?.id }}</td>
+            </tr>
+            <tr>
+                <th>Full Name</th>
+                <td>{{ contact?.fullname }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ contact?.email }}</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>{{ contact?.address }}</td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td>{{ contact?.phone_no }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ contact?.description }}</td>
+            </tr>
+            <tr>
+                <th>Created Time</th>
+                <td>{{ contact?.created_time }}</td>
+            </tr>
+        </tbody>
+    </table>
+<a class="btn btn-secondary"  (click)="backToContactList()">Back to Contact List</a>
+
+</div>
